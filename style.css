@@ -1,0 +1,36 @@
+.todo-card {
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.todo-card p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.todo-card.priority-low {
+  border: solid 2px #607c5d;
+}
+.todo-card.priority-medium {
+  border: solid 2px #aaaa39;
+}
+.todo-card.priority-high {
+  border: solid 2px #aa3f39;
+}
+.done p {
+  text-decoration: line-through;
+}
+
+.todo-modifier-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-date {
+  font-weight: 100;
+  color: grey;
+}
